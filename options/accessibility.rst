@@ -172,7 +172,7 @@ The Configuration Block
        },
        worker: {
          path: 'path-to-bundle/a11y/sre',   // full path to bundle/a11y/sre (set automatically)
-         pool: 'speech-workerpool.html',    // name of worker-pool file to load in an iframe
+         maps: 'path-to-sre/lib/mathmaps',  // full path to sre's speech rules
          worker: 'speech-worker.js',        // name of worker script to load as a webworker
          debug: false,                      // true to include debugging messages in the browser console about
                                             //   the communications between the page, worker pool, and workers.
