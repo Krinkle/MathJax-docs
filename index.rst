@@ -79,6 +79,7 @@ documentation if you need it.
    Lazy Typesetting                   <output/lazy>
    Line Breaking                      <output/linebreaks>
    Font Support                       <output/fonts>
+   Dark Mode                          <output/dark-mode>
    Browser Support                    <output/browser>
 
 .. _toc-configuration-options:

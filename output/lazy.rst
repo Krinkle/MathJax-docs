@@ -25,7 +25,7 @@ change.
 To use the lazy typesetting extension, simply add it to your
 configuration as follows:
 
-.. code-block:: latex
+.. code-block:: javascript
 
    MathJax = {
      loader: {load: ['ui/lazy']}
