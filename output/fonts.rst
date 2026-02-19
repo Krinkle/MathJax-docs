@@ -83,7 +83,7 @@ fonts are stored.  For example,
     MathJax = {
       loader: {
         paths: {
-          font: '/mathjax-fonts',
+          fonts: '/mathjax-fonts',
       }
     };
 
