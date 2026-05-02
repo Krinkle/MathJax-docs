@@ -1141,6 +1141,8 @@ F
      -
    * - ``\flatfrac``
      - physics
+   * - ``\footnotesize``
+     - **base**, text-base
    * - ``\forall``
      -
    * - ``\frac``
@@ -1272,8 +1274,10 @@ H
    * - ``\hspace``
      - **base**, text-base
    * - ``\huge``
-     - **base**, text-base
+     - **base**, text-base, fontsizev3
    * - ``\Huge``
+     - **base**, text-base, fontsizev3
+   * - ``\HUGE``
      - **base**, text-base
    * - ``\hypcosecant``
      - physics
@@ -1880,7 +1884,7 @@ N
    * - ``\norm``
      - physics
    * - ``\normalsize``
-     - **base**, text-base
+     - **base**, text-base, fontsizev3
    * - ``\not``
      -
    * - ``\notag``
@@ -2306,7 +2310,7 @@ S
    * - ``\scriptscriptstyle``
      -
    * - ``\scriptsize``
-     - **base**, text-base
+     - **base**, text-base, fontsizev3
    * - ``\scriptstyle``
      -
    * - ``\searrow``
@@ -2364,6 +2368,10 @@ S
    * - ``\skew``
      -
    * - ``\small``
+     - **base**, text-base, fontsizev3
+   * - ``\Small``
+     - **base**, text-base
+   * - ``\SMALL``
      - **base**, text-base
    * - ``\smallfrown``
      - **ams**
@@ -2830,9 +2838,9 @@ T
    * - ``\times``
      -
    * - ``\tiny``
-     - **base**, text-base
+     - **base**, text-base, fontsizev3
    * - ``\Tiny``
-     - **base**, text-base
+     - **base**, text-base, fontsizev3
    * - ``\to``
      -
    * - ``\toggle``

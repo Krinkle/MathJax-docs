@@ -31,6 +31,7 @@ The main extensions are described below:
    empheq
    enclose
    extpfeil
+   fontsizev3
    gensymb
    html
    mathtools
