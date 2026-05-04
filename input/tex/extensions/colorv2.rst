@@ -13,16 +13,16 @@ command, which is a switch that changes the color of everything that
 follows it.
 
 This extension is **not** loaded automatically when the `autoload`
-extension is used.  To load the `color` extension explicitly, add
+extension is used.  To load the `colorv2` extension explicitly, add
 ``'[tex]/colorv2'`` to the :data:`load` array of the :data:`loader`
-block of your MathJax configuration, and add ``'color'`` to the
+block of your MathJax configuration, and add ``'colorv2'`` to the
 :data:`packages` array of the :data:`tex` block.
 
 .. code-block:: javascript
 
    window.MathJax = {
      loader: {load: ['[tex]/colorv2']},
-     tex: {packages: {'[+]': ['color']}}
+     tex: {packages: {'[+]': ['colorv2']}}
    };
 
 or, use ``\require{colorv2}`` in a TeX expression to load it

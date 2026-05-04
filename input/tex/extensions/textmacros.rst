@@ -189,12 +189,18 @@ Size Control
 
 .. list-table::
 
+   * - ``\Tiny``
+     - tiny size
    * - ``\tiny``
      - very tiny size
-   * - ``\Tiny``
-     - tiny size (non-standard)
    * - ``\scriptsize``
      - size of super- and subscripts
+   * - ``\SMALL``
+     - same as script size
+   * - ``\footnotesize``
+     - size of footnotes
+   * - ``\Small``
+     - same as footnote size
    * - ``\small``
      - small size
    * - ``\normalsize``
@@ -208,7 +214,9 @@ Size Control
    * - ``\huge``
      - even larger size
    * - ``\Huge``
-     - largest size
+     - larger size yet
+   * - ``\HUGE``
+     - largest size (non-standard)
 
 
 Special Characters

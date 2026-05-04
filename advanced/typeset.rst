@@ -108,14 +108,7 @@ in memory and a corresponding decrease in performance over time.
 
 To deal with changing content, MathJax provides a function that tells
 it to forget about math that it has previously typeset:
-
-.. js:function:: MathJax.typesetClear(elements)
-
-   :param HTMLElement[] elements: An optional array of HTML elements
-                                  whose typeset math is to be
-                                  forgotten.  If not given, all math
-                                  items are forgotten (i.e., the
-                                  entire list of items is removed).
+:js:meth:`MathJax.typesetClear()`.
 
 If you are removing a portion of your document that may include
 typeset mathematics, you should call this function **before** removing
